@@ -2,6 +2,7 @@ interface btn {
   name: string;
 }
 
+// this is a buttone
 const GlobalButton: React.FC<btn> = ({ name }) => {
   return (
     <button
